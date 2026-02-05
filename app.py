@@ -63,7 +63,7 @@ if page == "📈 Forecast":
     n_months = st.sidebar.slider(
         "Forecast horizon (months)",
         min_value=1,
-        max_value=18,
+        max_value=8,
         value=6
     )
 
@@ -272,3 +272,4 @@ if page == "📊 Past Results":
     "- Outside this policy-impact window, monthly errors are consistently low.\n"
     "- Model demonstrates strong structural learning and is reliable for forward planning with scenario adjustments."
     )
+
